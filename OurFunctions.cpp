@@ -1,4 +1,6 @@
 #include <iostream> 
+#include<string>
+#include <cmath>
 using namespace std;
 
 // '''Function Declaration'''
@@ -34,7 +36,7 @@ int binaryArraySearch(int array[], int n, int key);
 void swap(int a, int b);
 
 // It short an array in assending order.
-int selectionArrayShort(int array[], int n)
+int selectionArrayShort(int array[], int n);
 
 // Main function
 int main(){
